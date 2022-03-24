@@ -50,7 +50,7 @@ for i in range(l):
     kl=(kl+1)%len(key)
 
     
-cv2.imwrite("encrypted_img.png",x) 
+cv2.imwrite("steganography/encrypted_img.png",x) 
 print("Data Hiding in Image completed successfully.")
 #x=cv2.imread(“encrypted_img.png")
     
